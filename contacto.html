@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Canales de contacto y formulario de comunicación de la I.E. N.° 42255 Santa Teresita del Niño Jesús.">
+  <title>I.E. N.° 42255 Santa Teresita del Niño Jesús | Contacto</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Ir al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Inicio de la I.E. N.° 42255 Santa Teresita del Niño Jesús">
+        <img class="site-logo" src="img/insignia.jpg" alt="Insignia institucional de la I.E. N.° 42255 Santa Teresita del Niño Jesús">
+        <span class="brand-text">
+          <strong>I.E. N.° 42255</strong>
+          <span>Santa Teresita del Niño Jesús</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="institucion.html">Institución</a></li>
+          <li><a href="propuesta.html">Propuesta educativa</a></li>
+          <li><a href="actividades.html">Actividades</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal" class="page-main">
+    <div class="container">
+      <section aria-labelledby="contacto-titulo">
+        <div class="section-heading">
+          <p class="eyebrow">Canales de atención</p>
+          <h1 id="contacto-titulo">Contacto</h1>
+          <p class="lead">Para consultas institucionales, comuníquese mediante los datos de referencia o complete el siguiente formulario.</p>
+        </div>
+
+        <div class="contact-layout">
+          <aside class="contact-details" aria-labelledby="datos-contacto-titulo">
+            <article class="contact-card">
+              <h2 id="datos-contacto-titulo">Ubicación referencial</h2>
+              <p>Avenida Humboldt 790, Mz. H, Lote 01, Etapa II, Sector 3.</p>
+              <p>Asociación de Vivienda Alfonso Ugarte III Etapa, distrito de Coronel Gregorio Albarracín Lanchipa, Tacna, Perú.</p>
+            </article>
+
+            <article class="contact-card">
+              <h2>Datos de atención</h2>
+              <ul class="data-list">
+                <li>
+                  <strong>Director</strong>
+                  Victor Manuel Ramos Copare.
+                </li>
+                <li>
+                  <strong>Correo institucional</strong>
+                  vmramos64@gmail.com
+                </li>
+                <li>
+                  <strong>Teléfono de contacto</strong>
+                  950 022 286
+                </li>
+              </ul>
+            </article>
+
+            <article class="contact-card">
+              <h2>Horario de referencia</h2>
+              <p>Lunes a viernes, de 8:00 a. m. a 4:00 p. m., en días hábiles del calendario escolar.</p>
+            </article>
+          </aside>
+
+          <section class="contact-form" aria-labelledby="formulario-titulo">
+            <form action="#" method="post">
+              <fieldset class="form-fieldset">
+                <legend id="formulario-titulo">Formulario de comunicación</legend>
+
+                <div class="form-row">
+                  <label for="nombre">Nombre completo</label>
+                  <input id="nombre" name="nombre" type="text" autocomplete="name" required minlength="3" maxlength="80" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñÜü ]{3,80}" title="Ingrese solo letras y espacios, con un mínimo de 3 caracteres.">
+                </div>
+
+                <div class="form-row">
+                  <label for="correo">Correo electrónico</label>
+                  <input id="correo" name="correo" type="email" autocomplete="email" required maxlength="120">
+                </div>
+
+                <div class="form-row">
+                  <label for="motivo">Motivo de contacto</label>
+                  <select id="motivo" name="motivo" required>
+                    <option value="" selected disabled>Seleccione una opción</option>
+                    <option value="consulta-academica">Consulta académica</option>
+                    <option value="matricula">Información sobre matrícula</option>
+                    <option value="convivencia">Convivencia escolar</option>
+                    <option value="otro">Otro asunto institucional</option>
+                  </select>
+                </div>
+
+                <div class="form-row">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" required minlength="20" maxlength="1000" aria-describedby="ayuda-mensaje"></textarea>
+                </div>
+                <p id="ayuda-mensaje" class="form-help">Escriba su consulta con un mínimo de 20 caracteres.</p>
+
+                <button class="submit-button" type="submit">Enviar consulta</button>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>I.E. N.° 42255 Santa Teresita del Niño Jesús, Tacna, Perú.</p>
+      <nav aria-label="Enlaces del pie de página">
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="institucion.html">Institución</a></li>
+          <li><a href="propuesta.html">Propuesta educativa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
